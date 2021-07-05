@@ -1,0 +1,44 @@
+body {
+    background-color: #7779f5
+}
+
+.block1{
+    font-size:x-large;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.block2{ 
+    display: flex; 
+    flex-wrap:wrap; 
+    justify-content: space-between; }
+
+.block3{
+    position:relative;
+}
+
+.block3 p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50-50) ;
+    opacity:0 ;
+}
+
+.block3:hover p{
+    opacity:1 ;
+
+}
+
+.block3:hover img{
+    opacity:35% ;
+}
+
+.block4{
+    display: flex; 
+    justify-content:flex-end;
+}
+ h1{
+     margin-top: 20px;
+     padding: 70px;
+ }
